@@ -2,6 +2,7 @@
   "name": "awsome-ts-react",
   "version": "0.1.0",
   "private": true,
+  "homepage": "/awsome-react-ts",
   "dependencies": {
     "@babel/plugin-proposal-private-property-in-object": "^7.21.11",
     "@monaco-editor/react": "^4.6.0",
