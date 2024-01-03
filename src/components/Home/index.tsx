@@ -41,6 +41,7 @@ const Home: React.FC = () => {
     } catch (error) {
       setValidationResult("Invalid JSON format.");
     }
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [jsonCode]);
 
   const handleJsonChange = (value: any) => {
