@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.css": "/awsome-react-ts/static/css/main.f855e6bc.css",
-    "main.js": "/awsome-react-ts/static/js/main.ca68d3df.js",
-    "index.html": "/awsome-react-ts/index.html",
-    "main.f855e6bc.css.map": "/awsome-react-ts/static/css/main.f855e6bc.css.map",
-    "main.ca68d3df.js.map": "/awsome-react-ts/static/js/main.ca68d3df.js.map"
+    "main.css": "/awesome-react-ts/static/css/main.f855e6bc.css",
+    "main.js": "/awesome-react-ts/static/js/main.ca68d3df.js",
+    "index.html": "/awesome-react-ts/index.html",
+    "main.f855e6bc.css.map": "/awesome-react-ts/static/css/main.f855e6bc.css.map",
+    "main.ca68d3df.js.map": "/awesome-react-ts/static/js/main.ca68d3df.js.map"
   },
   "entrypoints": [
     "static/css/main.f855e6bc.css",
