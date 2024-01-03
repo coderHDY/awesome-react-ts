@@ -16,7 +16,6 @@ const Home: React.FC = () => {
   };
 
   useEffect(() => {
-    // Ajv instance
     const ajv = new Ajv();
     const validate = ajv.compile(jsonSchema);
 
