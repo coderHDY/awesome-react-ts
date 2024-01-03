@@ -10,8 +10,8 @@ const Home: React.FC = () => {
     type: "object",
     required: ["name", "age"],
     patternProperties: {
-      "name": { type: "string" },
-      "age": { type: "number" },
+      name: { type: "string" },
+      age: { type: "number" },
     },
   };
 
@@ -30,8 +30,13 @@ const Home: React.FC = () => {
       if (isValid) {
         setValidationResult("JSON data is valid.");
       } else {
-        const errors = validate.errors?.map((item: any, idx) => `${idx + 1}: ${item.instancePath} ${item.message}\n`).join("")
-        setValidationResult(errors ?? "" );
+        const errors = validate.errors
+          ?.map(
+            (item: any, idx) =>
+              `${idx + 1}: ${item.instancePath} ${item.message}\n`,
+          )
+          .join("");
+        setValidationResult(errors ?? "");
       }
     } catch (error) {
       setValidationResult("Invalid JSON format.");
