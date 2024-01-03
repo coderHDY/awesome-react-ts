@@ -1,5 +1,4 @@
 import React from "react";
-import logo from "./logo.svg";
 import "./App.css";
 import routerMap from "./router";
 import { useRoutes } from "react-router-dom";
